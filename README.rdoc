@@ -1,28 +1,24 @@
-== README
+Reddit Clone Specs
+Your site should have the following behavior:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Anyone can visit the root page and see a list of all the posts
+Anyone can click on a post to view its comments
+Only a logged in user can submit a new post
+Only a logged in user can comment on a post
+Only the owner/creator of a post can edit that post
+Only the owner/creator of a post can delete that post
+Only the owner/creator of a comment can edit that comment
+Only the owner/creator of a comment can delete that comment
+The specific models, routing, and views are completely up to you. With that said, this assignment is meant to build on all the things you've been learning up to this point: authentication, nested routes, model associations, etc.
 
-Things you may want to cover:
+Example Solution - https://github.com/marthaberner/reddit-clone-solution
 
-* Ruby version
+Styling
+Styling is not a huge component of this project, but feel free to make your site look nice. Add Bootstrap, Foundation, or roll your own styling from scratch. Don't stress out about it, though. I want you to focus mainly on the back-end logic.
 
-* System dependencies
+Bonus Features
+Completely optional, challenging features to add after you finish the basic functionality:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Add the ability to comment on another comment. Hint: look into polymorpism
+Add subreddits
+Add moderators. A moderator can edit or delete any post. (hint: use ActiveRecord Single Table Inheritance)
